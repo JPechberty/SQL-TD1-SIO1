@@ -14,6 +14,7 @@ permettant d'accéder à la base de données.
 - Créer une base de données
 - Créer une table
 - Insérer des données
+- Modifier la structure des données
 - Mettre à jour des données
 - Supprimer des données
 - Requêter / visualiser des données
