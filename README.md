@@ -12,7 +12,7 @@ permettant d'accéder à la base de données.
 ## Objectifs
 
 - Créer une base de données
-- Créer des tables
+- Créer une table
 - Insérer des données
 - Mettre à jour des données
 - Supprimer des données
