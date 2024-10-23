@@ -1,6 +1,6 @@
 services:
   database:
-    container_name: SQL-TD4-SIO2-database
+    container_name: SQL-TD1-SIO1-database
     image: mariadb:latest
     #    ports:
     #      - "3306:3306"
@@ -12,9 +12,8 @@ services:
       TZ: Europe/Paris
     volumes:
       - ./var/dbdata:/var/lib/mysql
-      - ./docs/app_db.sql:/docker-entrypoint-initdb.d/app_db.sql
   phpmyadmin:
-    container_name: SQL-TD4-SIO2-pma
+    container_name: SQL-TD1-SIO1-pma
     image: phpmyadmin/phpmyadmin
     ports:
       - "8081:80"
